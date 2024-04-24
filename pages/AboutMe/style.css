@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #EAEAEA;
+    color: #463E3E;
+    font-family: "Itim", cursive;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: blue;
+}
+
+/* ----------------------------------------- HEADER --------------------------------------*/
+.header {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-list {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header .header-list .about {
+    color: #79EEB6;
+}
+
+.header .header-list li a {
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0 40px;
+}
+
+.header .header-list li a:hover {
+    color: #79EEB6;
+    transition: .3s;
+}
+
+/* ----------------------------------------- HEADER --------------------------------------*/
+
+/* ----------------------------------------- MAIN --------------------------------------*/
+
+.main {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main .main-div1 {
+    padding-left: 8%;
+    width: 50%;
+}
+
+.main .main-div1 h1 {
+    font-size: 6em;
+    margin-bottom: 20px;
+    font-family: "Courgette", cursive;
+}
+
+.main .main-div1 h1 span {
+    color: #79EEB6;
+}
+
+.main .main-div1 p {
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 50px;
+}
+.main .main-div2{
+    width: 40%;
+
+}
+.main .main-div2 img{
+    width: 100%;
+}
+
+.main .img-detalhe {
+    position: fixed;
+    top: 90px;
+    right: 30px;
+}
+
+.main .img-detalhe2 {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+/* ----------------------------------------- MAIN --------------------------------------*/

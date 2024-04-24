@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #EAEAEA;
+    color: #463E3E;
+    font-family: "Itim", cursive;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: blue;
+}
+
+/* ----------------------------------------- HEADER --------------------------------------*/
+.header {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-list {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header .header-list .education {
+    color: #79EEB6;
+}
+
+.header .header-list li a {
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0 40px;
+}
+
+.header .header-list li a:hover {
+    transition: .3s;
+    color: #79EEB6;
+}
+
+/* ----------------------------------------- HEADER --------------------------------------*/
+
+/* ----------------------------------------- MAIN --------------------------------------*/
+.main {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .main-divs {
+    padding: 5em;
+}
+
+.main .main-divs .main-div1 {
+    padding: 3em;
+    line-height: 4em;
+}
+
+.main .main-divs .main-div1 h1 {
+    font-family: "Courgette", cursive;
+    font-size: 4em;
+}
+.main .main-divs .main-div1 span{
+    color: #79EEB6;
+}
+.main .main-divs .main-div1 p{
+    font-size: 2em;
+}
+.main .main-divs .icons{
+    text-align: center;
+}
+.main .main-divs .main-div2 img{
+
+}
+
+
+.main .img-detalhe {
+    position: fixed;
+    top: 90px;
+    right: 30px;
+}
+
+.main .img-detalhe2 {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+/* ----------------------------------------- MAIN --------------------------------------*/

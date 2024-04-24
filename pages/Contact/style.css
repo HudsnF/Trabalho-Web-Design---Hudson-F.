@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EAEAEA;
+    color: #463E3E;
+    font-family: "Itim", cursive;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: blue;
+}
+
+/* ----------------------------------------- HEADER --------------------------------------*/
+.header {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-list {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header .header-list .contact {
+    color: #79EEB6;
+}
+
+.header .header-list li a {
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0 40px;
+}
+
+.header .header-list li a:hover {
+    transition: .3s;
+    color: #79EEB6;
+}
+
+/* ----------------------------------------- HEADER --------------------------------------*/
+
+/* ----------------------------------------- MAIN --------------------------------------*/
+.main {
+    height: 90%;
+    display: flex;
+}
+
+.main .main-div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.main .main-div1 h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: "Courgette", cursive;
+}
+
+.main .main-div1 h1 span {
+    color: #79EEB6;
+}
+
+.main .main-div1 .divs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main .main-div1 .divs .button1 a,
+.button2 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 8px;
+    text-decoration: none;
+    gap: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.main .main-div1 .divs .button1 a {
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+}
+
+.main .main-div1 .divs .button1 a:hover {
+    background-color: black;
+    transition: all;
+    transition-duration: .4s;
+}
+
+.main .main-div1 .divs .button1 img,
+.button2 img {
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.main .main-div1 .divs .button2 a {
+    background-color: rgba(0, 0, 255, 0.733);
+    color: white;
+    padding: 10px;
+}
+
+.main .main-div1 .divs .button2 a:hover {
+    background-color: blue;
+    transition: all;
+    transition-duration: .4s;
+
+}
+
+.main .main-div1 .divs .forms form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .main-div1 .divs .forms form input,
+textarea {
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.main .main-div1 .divs .forms form label {
+    margin: 5px 0;
+}
+
+.main .main-div1 .divs .forms form button {
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #79eeb58c;
+    padding: 8px;
+    color: black;
+}
+
+.main .main-div1 .divs .forms form button:hover {
+    background-color: #79EEB6;
+    transition: all .4s;
+    cursor: pointer;
+    width: 120px;
+}
+
+.main .img-detalhe {
+    position: fixed;
+    top: 90px;
+    right: 30px;
+}
+
+.main .img-detalhe2 {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+/* ----------------------------------------- MAIN --------------------------------------*/
